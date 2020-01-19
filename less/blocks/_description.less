@@ -1,0 +1,103 @@
+.middle {
+	display: flex;
+
+}
+
+.description {
+	color: #FFF;
+	margin-left: 15px;
+	padding-top: 85px;
+
+	
+	@media (min-width: 576px){
+		padding-top: 0;
+	}
+
+	@media (min-width: 991px){
+		margin-left: 0;
+	}
+
+}
+
+.description-play {
+	padding-left: 185px;
+	padding-top: 75px;
+	cursor: pointer;
+	
+	.description-play__link {
+	width: 141px;
+	height: 141px;
+	background-image: url("../usercontent/img/play.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-background-size: cover;
+     	-o-background-size: cover;
+        background-size: cover;
+		
+		&:hover {
+			background-image: url("../usercontent/img/play1.png");
+			transition: all 0.4s ease-in;
+
+		}
+
+	}
+	
+
+}
+
+.description__sub-title {
+	padding: 0;
+	margin: 0;
+	padding-bottom: 20px;
+	font-size: 14px;
+	font-weight: 700;
+	text-transform: uppercase;
+	
+	@media (min-width: 576px){
+		margin-left: 70px;
+		padding-bottom: 0;
+	}
+
+	@media (min-width: 991px){
+		margin-left: 0;
+	}
+}
+
+.description__title {
+	padding: 0;
+	margin: 0;
+	font-size: 100px;
+	font-family: 'Playfair Display';
+	padding-bottom: 75px;
+	line-height: 1;
+	font-size: 88px;
+
+
+	@media (max-height: 568px){
+		padding-bottom: 55px;
+	}
+	
+	@media (min-width: 375px){
+		font-size: 100px;
+	}	
+	
+	@media (min-width: 576px){
+		margin-left: 62px;
+		font-size: 150px;
+		padding-bottom: 55px;
+	}
+	
+	@media (min-width: 768px){
+		font-size: 190px;
+	}
+
+	@media (min-width: 991px){
+		margin-left: 0;
+	}
+
+	@media (min-width: 1200px){
+		font-size: 210px;
+		padding-bottom: 75px;
+	}
+	
+}

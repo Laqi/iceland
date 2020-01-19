@@ -1,0 +1,88 @@
+.section {
+	position: relative;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	height: 100%;
+	
+	@media (min-width: 576px){
+		padding-top: 74px;
+	}	
+	
+	@media (min-width: 768px){
+		height: 600px;
+	}
+	
+	@media (min-width: 991px){
+		height: 800px;
+		padding-top: 124px;
+	}
+
+}
+
+.section--gallery {
+	display: none;
+	
+	@media (min-width: 768px){
+		display: block;
+		padding-top: 60px;
+
+	}
+	
+}
+
+.section--gallery-adaptive {
+	display: block;
+	padding-top: 60px;
+	
+	@media (min-width: 768px){
+		display: none;
+
+	}	
+	
+}
+
+.section--bg-fon {
+		background-image: url("../img/bg/bg-fon-adaptive.png");
+		background-repeat: no-repeat;
+		background-position: right 75%;
+	
+		@media (min-width: 576px){
+			background-image: url("../img/bg/bg-fon.png");
+			background-position: right 42%;
+		
+
+	}
+	
+}
+
+.section--bg-fon-gallery {
+
+		@media (min-width: 576px){
+			background-position: right 22%;
+	
+	}
+
+	
+}  
+
+.section--bg-fon-autor {
+		background-image: url("../img/bg/bg-fon-2-adaptive.png");
+		background-repeat: no-repeat;
+		background-position: left 75%;
+	
+		@media (min-width: 576px){
+			background-image: url("../img/bg/bg-fon-2.png");
+			background-position: left 42%;
+		
+
+	}
+	
+} 
+
+.main-bottom__navigation-pages--absolute {
+	position: absolute;
+	left: 0.65%;
+	bottom: 6%;
+}
+

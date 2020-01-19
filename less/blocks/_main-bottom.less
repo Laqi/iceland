@@ -1,0 +1,173 @@
+.main-bottom {
+	color: #FFF;
+	margin-left: 15px;
+	display: flex;
+	-webkit-justify-content: space-between;
+	        justify-content: space-between;
+	
+	font-family: 'Montserrat';
+	// margin-top: 48px;
+	margin-right: 0px;
+	padding-bottom: 22px;
+	
+	@media (min-width: 576px){
+		margin-right: 85px;
+		padding-bottom: 42px;
+	}
+
+	@media (min-width: 991px){
+		margin-left: 0;
+		width: 100%;
+	}
+}
+
+.main-bottom__navigation-pages {
+	display: none;
+
+	@media (min-width: 768px){
+		display: flex;
+		margin-left: 70px;
+		margin-top: 70px;
+		
+	@media (min-width: 991px){
+		margin-left: 0;
+	}
+
+	.main-bottom__navigation-pages--first {
+		font-size: 24px;
+	}
+
+	.main-bottom__navigation-pages--second {
+		font-size: 15px;
+		padding-top: 10px;
+	}
+
+	}
+
+}
+
+.main-bottom__navigation-pages--black {
+	color: #000;
+}
+
+.main-bottom__navigation-down {
+		display: none;
+		cursor: pointer;
+	@media (min-width: 768px){
+		// display: block;
+		width: 27px;
+		height: 24px;
+		display: inline-block;
+		padding-top: 10px;
+		margin: 0;
+		margin-top: 70px;
+	}
+}
+
+.main-bottom__navigation-down--adaptive {
+	display: block;
+	padding-top: 155px;
+	cursor: pointer;
+
+		@media (max-height: 568px){
+			padding-top: 120px;
+		}
+	
+		@media (min-width: 576px){
+			padding-top: 75px;
+		}
+		@media (min-width: 768px){
+			display: none;
+		}
+}
+
+.main-bottom__social-icons {
+	margin-top: 75px;
+
+
+	.color {
+
+		width: 25px;
+		height: 25px;
+		display: block;
+		background-image: url("../usercontent/img/icons/vk.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			-webkit-background-size: cover;
+	     	-o-background-size: cover;
+	        background-size: cover;
+			margin-bottom: 15px;
+			
+			@media (min-width: 576px){
+				display: inline-block;
+				margin-bottom: 0;
+			}
+				
+		&:hover {
+			background-image: url("../usercontent/img/icons/vk-color.png");
+			transition: all 0.4s ease-in;
+
+		}
+	}
+
+	.color1 {
+		width: 25px;
+		height: 25px;
+		display: block;
+		background-image: url("../usercontent/img/icons/twitter.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			-webkit-background-size: cover;
+	     	-o-background-size: cover;
+	        background-size: cover;
+			margin-bottom: 15px;
+			
+			@media (min-width: 576px){
+				display: inline-block;
+				margin-bottom: 0;
+
+			}
+							
+		&:hover {
+			background-image: url("../usercontent/img/icons/twitter-color.png");
+			transition: all 0.4s ease-in;
+	
+		}
+	}
+
+	.color2 {
+		width: 25px;
+		height: 25px;
+		display: block;
+		background-image: url("../usercontent/img/icons/facebook.png");
+			background-repeat: no-repeat;
+			background-position: center;
+			-webkit-background-size: cover;
+	     	-o-background-size: cover;
+	        background-size: cover;
+			margin-bottom: 15px;
+			
+			@media (min-width: 576px){
+				display: inline-block;
+				margin-bottom: 0;
+
+			}
+							
+		&:hover {
+			background-image: url("../usercontent/img/icons/facebook-color.png");
+			transition: all 0.4s ease-in;
+
+		}
+	}
+
+		a.probel {
+			margin-right: 20px;
+
+	}
+
+		@media (max-height: 568px){
+		margin-top: 45px;
+	}
+	
+}
+

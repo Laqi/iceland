@@ -1,0 +1,84 @@
+.header {
+	position: relative;
+	display: flex;
+    justify-content: center;
+	height: 100%;
+	background-image: url("../usercontent/img/bg-min.png");
+	background-repeat: no-repeat;
+	background-position: center;
+	-webkit-background-size: cover;
+	     -o-background-size: cover;
+	        background-size: cover;
+	overflow: hidden;
+	
+	@media (min-width: 576px){
+		height: 600px;
+		background-image: url("../usercontent/img/icelan.png");
+		background-repeat: no-repeat;
+		background-position: center;
+		-webkit-background-size: cover;
+		     -o-background-size: cover;
+		        background-size: cover;
+	}
+	
+	@media (min-width: 991px){
+		height: 800px;
+		
+	}
+	
+
+
+}
+
+.main-wrapper {
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+	height: 800px;
+	
+	@media (min-width: 991px){
+		width: 1200px;
+	}
+}
+
+.section-wrapper {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+	// height: 800px;
+	
+	@media (min-width: 991px){
+		width: 1200px;
+	}
+}
+
+
+.nav-holder__adaptive {
+	position: absolute;
+	width: 300px;
+	height: 100%;
+	background-color: #47958C;
+	right: 0;
+	top: 0;
+    transform: translate(100%, 0px);
+    transition: all 0.5s ease-in;
+	
+	
+}
+
+.nav-holder__adaptive--active {
+	position: absolute;
+	width: 300px;
+	height: 100%;
+	background-color: #47958C;
+	right: 0;
+	top: 0;
+    transform: translate(0, 0px);
+    transition: all 0.5s ease-in;
+	
+	
+
+	@media (min-width: 1200px){
+		display: none;
+	}
+}

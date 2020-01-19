@@ -1,0 +1,47 @@
+.button {
+	color: #FFF;
+	background-color: @akcent;
+	padding: 14px 33px;
+	font-size: 15px;
+	font-family: 'Montserrat';
+	font-weight: 500;
+	display: inline-block;
+	cursor: pointer;
+	
+	&:hover, &:focus, &:active {
+		color: #FFF;
+		background-color: #334D5A;
+        transition: all 0.3s ease-in;
+        text-decoration: none;
+	}
+
+	@media (max-height: 568px){
+	padding: 14px 28px;
+	}
+
+	@media (min-width: 1200px) {
+		margin-left: 70px;
+		padding: 19px 45px;
+		font-size: 15px;
+	}
+}
+
+.button__tours {
+	margin-left: 0;
+
+}
+
+.button__main {
+	margin-left: 0;
+	
+	@media (min-width: 768px) {
+	margin-left: 62px;
+}
+
+	@media (min-width: 991px){
+		margin-left: 0;
+	}
+}
+
+
+
